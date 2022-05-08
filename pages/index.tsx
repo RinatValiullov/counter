@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
-import { Greet } from './../components/Greet/Greet';
+import { Counter } from './../components/Counter/Counter';
 
 const Home: NextPage = () => {
   return (
-    <Greet/>
+    <Counter/>
   );
 }
 

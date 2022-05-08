@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  background-color: rgba(223, 223, 223, .5);
+  @apply bg-slate-300 p-2 flex justify-center;
 }
